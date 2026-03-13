@@ -1,0 +1,72 @@
+archive_path: /mnt/disk1/archive/
+cred3:
+  bulk_center:
+  - 10
+  - 10
+  bulk_size: 10
+  dark_shm_path: /dev/shm/cred3_dark.im.shm
+  img_shm_path: /dev/shm/cred1.im.shm
+  output_centers:
+  - - 315
+    - 323
+  - - 346
+    - 323
+  - - 378
+    - 323
+  - - 409
+    - 323
+  output_sizes: 15
+  semid: 0
+  use_dark: true
+dm:
+  config_path: ./config/DM/DM_config.json
+  piston_range:
+  - -2530
+  - 230
+  serial_number: 27BW007#051
+  stabilization_time: 0.01
+  tilt_range:
+  - -5.47
+  - 5.0
+  tip_range:
+  - -5.45
+  - 5.39
+injection:
+  segments:
+  - 138
+  - 137
+  - 136
+  - 135
+  balanced:
+  - - 0.36686327183515816
+    - 0.9783020582270886
+  - - 0.40000000000000036
+    - 1.6000000000000005
+  - - 0.0
+    - 1.7237508013734286
+  - - -0.39620430605628537
+    - 1.9810215302814274
+  max:
+  - - 0.6000000000000001
+    - 1.6000000000000005
+  - - 0.40000000000000036
+    - 1.6000000000000005
+  - - 0.0
+    - 1.8000000000000007
+  - - -0.3999999999999999
+    - 2.0
+filter_wheel:
+  port: /dev/ttyUSBthorlabs
+  selected_filter: 4
+photonic_chip:
+  arch: 6
+  bright_output: 0
+  driver_port_match: 2341:8036
+  stabilization_time: 0.01
+pupil_mask:
+  newport_home: 56.15
+  newport_port: /dev/ttyUSBnewport
+  selected_mask: 4
+  zaber_h_pos: 150000
+  zaber_port: /dev/ttyUSBzaber
+  zaber_v_pos: 150000
