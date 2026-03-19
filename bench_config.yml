@@ -15,7 +15,7 @@ cred3:
     - 323
   - - 409
     - 323
-  output_sizes: 15
+  output_sizes: 10
   semid: 0
   use_dark: true
 dm:
