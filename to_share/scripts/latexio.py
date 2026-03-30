@@ -42,6 +42,7 @@ def display_complex_matrix(matrix, name="M"):
     body = r" \\ ".join(rows)
     latex = rf"{name}=\begin{{pmatrix}}{body}\end{{pmatrix}}"
     display(Math(latex))
+    return latex
 
 
 def display_complex_vector(matrix, name="v"):
@@ -67,3 +68,4 @@ def display_complex_vector(matrix, name="v"):
     body = r" \\ ".join(_format_complex_polar(v) for v in vec)
     latex = rf"{name}=\begin{{pmatrix}}{body}\end{{pmatrix}}"
     display(Math(latex))
+    return latex
