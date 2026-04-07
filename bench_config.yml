@@ -7,14 +7,14 @@ cred3:
   dark_shm_path: /dev/shm/cred3_dark.im.shm
   img_shm_path: /dev/shm/cred1.im.shm
   output_centers:
-  - - 315
-    - 323
-  - - 346
-    - 323
-  - - 378
-    - 323
-  - - 409
-    - 323
+  - - 180
+    - 241
+  - - 211
+    - 241
+  - - 242
+    - 241
+  - - 273
+    - 241
   output_sizes: 10
   semid: 0
   use_dark: true
