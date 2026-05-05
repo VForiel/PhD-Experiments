@@ -17,7 +17,10 @@ def _format_complex_polar(value: complex) -> str:
     """
     z = np.abs(value)
     a = np.angle(value) / np.pi
-    return f"{z:.2g}e^{{{a:.2f}i\\pi}}"
+    if a != 0:
+        return f"{z:.2g}e^{{{a:.2f}i\\pi}}"
+    else:
+        return f"{z:.2g}"
 
 
 def display_complex_matrix(matrix, name="M"):
